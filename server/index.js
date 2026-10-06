@@ -11,7 +11,7 @@ const contentTypes = {
   '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.png': 'image/png',
   '.ico': 'image/x-icon', '.woff2': 'font/woff2', '.txt': 'text/plain',
 };
-const services = new Set(['Premises security', 'Event security', 'Mobile patrols', 'Personal protection', 'Not sure yet']);
+const services = new Set(['Premises security', 'Event security', 'Mobile patrols', 'Personal protection', 'Construction site protection', 'Not sure yet']);
 
 function json(res, status, value) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
